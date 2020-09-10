@@ -12,7 +12,7 @@ echo "==== create settings.sh ===="
 cat <<EOF >${work_dir}/settings.sh
 reflector -a 12 -l 70 -f 30 -p https -p http --sort rate --save /etc/pacman.d/mirrorlist
 
-## blackarch strap
+## blackarch
 curl -OL https://blackarch.org/strap.sh
 sed -i "s|pgp.mit.edu|keys.gnupg.net|g" strap.sh
 chmod +x strap.sh
@@ -37,10 +37,10 @@ Os_release() {
         -e 's,ID=.*,ID=killer-os,' \
         -e 's,ID_LIKE=.*,ID_LIKE=arch,' \
         -e 's,BUILD_ID=.*,BUILD_ID=rolling,' \
-        -e 's,HOME_URL=.*,HOME_URL=\"t.me/Killer_OS_Info\",' \
-        -e 's,DOCUMENTATION_URL=.*,DOCUMENTATION_URL=\"t.me/Killer_OS_Info\",' \
+        -e 's,HOME_URL=.*,HOME_URL=\"killer-os-oficial.github.io\",' \
+        -e 's,DOCUMENTATION_URL=.*,DOCUMENTATION_URL=\"killer-os-oficial.github.io/wiki/wm/bspwm/\",' \
         -e 's,SUPPORT_URL=.*,SUPPORT_URL=\"t.me/Killer_OS_Info\",' \
-        -e 's,BUG_REPORT_URL=.*,BUG_REPORT_URL=\"t.me/Killer_OS_Info\",' \
+        -e 's,BUG_REPORT_URL=.*,BUG_REPORT_URL=\"killer-os-oficial.github.io/wiki/changelog\",' \
         -e 's,LOGO=.*,LOGO=killer-os,'
 }
 

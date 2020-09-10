@@ -16,7 +16,6 @@ base
 base-devel
 bash-completion
 bind-tools
-#blackarch-keyring
 broadcom-wl
 bspwm
 btrfs-progs
