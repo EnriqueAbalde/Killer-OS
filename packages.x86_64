@@ -1,10 +1,6 @@
 #!/bin/bash
 
-multilockscreen
 accountsservice
-wmname
-colorpicker
-source-highlight
 alsa-firmware
 alsa-utils
 amd-ucode
@@ -29,6 +25,7 @@ chrpath
 ckbcomp
 clipit
 clonezilla
+colorpicker
 crda
 cronie
 cryptsetup
@@ -123,8 +120,10 @@ killer-os-base-skel
 killer-os-bspwm-skel
 killer-os-calamares
 killer-os-grub-themes
+killer-os-mirrorlist
 killer-os-sddm-themes
 killer-os-themes
+leafpad
 less
 lftp
 lib32-alsa-plugins
@@ -170,6 +169,8 @@ mpd
 mpv
 mtools
 mtpfs
+multilockscreen
+multilockscreen-git
 nano
 nbd
 ncmpcpp
@@ -206,8 +207,8 @@ p7zip
 paccache-hook
 pacman-contrib
 pamac-aur
-#pamac-aur-git
 papirus-icon-theme
+parcellite
 partclone
 parted
 partimage
@@ -218,6 +219,7 @@ perl-file-desktopentry
 pfetch-git
 picom
 pkgfile
+polkit-gnome
 polybar-git
 ppp
 pptpclient
@@ -262,6 +264,7 @@ smartmontools
 smplayer
 smplayer-skins
 smplayer-themes
+source-highlight
 squashfs-tools
 straw-viewer-git
 streamlink
@@ -310,6 +313,7 @@ whois
 wireless-regdb
 wireless_tools
 wmctrl
+wmname
 wpa_supplicant
 wvdial
 x264
