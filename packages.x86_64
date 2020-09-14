@@ -1,6 +1,10 @@
 #!/bin/bash
 
+multilockscreen
 accountsservice
+wmname
+colorpicker
+source-highlight
 alsa-firmware
 alsa-utils
 amd-ucode
