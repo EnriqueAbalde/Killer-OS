@@ -18,6 +18,7 @@ sed -i "s|pgp.mit.edu|keys.gnupg.net|g" strap.sh
 chmod +x strap.sh
 ./strap.sh
 rm strap.sh
+pacman -Syyuu
 
 sed -i '/User/s/^#\+//' /etc/sddm.conf
 

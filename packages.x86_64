@@ -50,7 +50,7 @@ efibootmgr
 encfs
 ethtool
 exfat-utils
-exfatprogs
+#exfatprogs
 expac
 f2fs-tools
 ffmpeg
@@ -118,7 +118,7 @@ jsoncpp
 keepassxc
 killer-os-base-skel
 killer-os-bspwm-skel
-killer-os-calamares
+#killer-os-calamares
 killer-os-grub-themes
 killer-os-mirrorlist
 killer-os-sddm-themes
@@ -170,7 +170,7 @@ mpv
 mtools
 mtpfs
 multilockscreen
-multilockscreen-git
+#multilockscreen-git
 nano
 nbd
 ncmpcpp
