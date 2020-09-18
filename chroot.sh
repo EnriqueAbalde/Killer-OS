@@ -10,6 +10,12 @@ chrooter(){
 echo "==== create settings.sh ===="
 
 cat <<EOF >${work_dir}/settings.sh
+
+pacman-key --init
+pacman-key --populate
+pacman-key --refresh-keys
+pacman -Syyuu
+
 reflector -a 12 -l 70 -f 30 -p https -p http --sort rate --save /etc/pacman.d/mirrorlist
 
 ## blackarch
@@ -18,6 +24,10 @@ sed -i "s|pgp.mit.edu|keys.gnupg.net|g" strap.sh
 chmod +x strap.sh
 ./strap.sh
 rm strap.sh
+
+pacman-key --init
+pacman-key --populate
+pacman-key --refresh-keys
 pacman -Syyuu
 
 sed -i '/User/s/^#\+//' /etc/sddm.conf

@@ -118,7 +118,7 @@ jsoncpp
 keepassxc
 killer-os-base-skel
 killer-os-bspwm-skel
-#killer-os-calamares
+calamares
 killer-os-grub-themes
 killer-os-mirrorlist
 killer-os-sddm-themes
@@ -170,7 +170,6 @@ mpv
 mtools
 mtpfs
 multilockscreen
-#multilockscreen-git
 nano
 nbd
 ncmpcpp
@@ -206,7 +205,7 @@ os-prober
 p7zip
 paccache-hook
 pacman-contrib
-pamac-aur
+pamac-aur-git
 papirus-icon-theme
 parcellite
 partclone
